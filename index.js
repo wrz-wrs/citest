@@ -1,8 +1,8 @@
-/* const http = require('http')
+ const http = require('http')
 
 http.createServer((req, res) => {
     res.write('hello world ci-test')
     res.end()
-}).listen(8963) */
+}).listen(8963) 
 
 console.log('??hell')
