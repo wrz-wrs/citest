@@ -1,8 +1,8 @@
- const http = require('http')
+var http = require('http');
 
-http.createServer((req, res) => {
-    res.write('hello world ci-test')
-    res.end()
-}).listen(8963) 
+http.createServer(function (req, res) {
+    res.write('hello world ci-test');
+    res.end();
+}).listen(8963);
 
-console.log('??hell')
+console.log('??hell');
